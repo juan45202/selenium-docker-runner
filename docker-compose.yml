@@ -29,7 +29,7 @@ services:
     volumes:
       - ./search-result:/usr/share/udemy/test-output
   book-flight-module:
-    image: juan-ruiz/selenium-docker
+    image: jjrm8/selenium-docker
     depends_on:
       - chrome
       - firefox
